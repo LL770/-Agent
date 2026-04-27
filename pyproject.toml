@@ -1,0 +1,17 @@
+[project]
+name = "procrastination-killer"
+version = "0.1.0"
+description = "AI-powered Windows desktop monitor to kill procrastination"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "volcengine-python-sdk[ark]",
+    "Pillow",
+    "psutil",
+    "pywin32",
+    "pyttsx3",
+    "windows-toasts",
+    "pydantic",
+    "python-dotenv",
+    "httpx",
+]
